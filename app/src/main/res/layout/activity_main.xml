@@ -53,7 +53,14 @@
 
     <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Галочка"
+        android:textSize="25sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
 
     <ToggleButton
         android:layout_width="wrap_content"
