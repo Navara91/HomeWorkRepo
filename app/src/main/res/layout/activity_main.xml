@@ -31,8 +31,15 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
 
     <Switch
         android:layout_width="wrap_content"
