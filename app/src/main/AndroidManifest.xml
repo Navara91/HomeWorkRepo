@@ -23,6 +23,11 @@
             adnroid:label="Task2">
         </activity>
 
+        <activity
+            android:name=".calendarActivity"
+            adnroid:label="Task3">
+        </activity>
+
     </application>
 
 </manifest>
