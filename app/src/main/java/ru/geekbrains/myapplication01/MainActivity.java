@@ -25,6 +25,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonRunTask3Maket = findViewById(R.id.switchCalendarLayout);
+        buttonRunTask3Maket.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(MainActivity.this, calendarActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
