@@ -7,16 +7,24 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Task 3"
         android:textSize="30sp"
         android:gravity="center"
+        android:ems="@android:integer/config_longAnimTime"
         android:fontFamily="sans-serif-black"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         />
 
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
 
 </LinearLayout>
