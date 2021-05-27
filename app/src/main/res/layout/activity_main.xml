@@ -70,5 +70,16 @@
         android:layout_marginRight="40dp"
         />
 
+    <Button
+        android:id="@+id/switchAnotherLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="другой макет"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
 
 </LinearLayout>
